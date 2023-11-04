@@ -26,7 +26,7 @@ export default function HomeTemplate() {
             fontWeight="800"
             lineHeight="75.55px"
             color="black"
-            text="Depoimentos"
+            text="Depoimentos AAAAAAAAAAAAAAAAAAAAA"
           />
         </Box>
 
