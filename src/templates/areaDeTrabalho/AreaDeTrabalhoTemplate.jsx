@@ -79,7 +79,9 @@ export default function AreaDeTrabalhoTemplate() {
           pauseOnHover
           theme="colored"
         />
-        <GerenciarAvaliacoesETurmas />
+        {auth.readPermission === true && (
+          <GerenciarAvaliacoesETurmas idvol={idvol} />
+        )}
       </div>
     </>
   );
