@@ -1,6 +1,6 @@
+/* eslint-disable simple-import-sort/imports */
 import React, { useEffect, useState } from "react";
 import { ToastContainer } from "react-toastify";
-
 import useGetUser from "../../hooks/useGetUser";
 
 import AvaliarCadernos from "./components/AvaliarCadernos";

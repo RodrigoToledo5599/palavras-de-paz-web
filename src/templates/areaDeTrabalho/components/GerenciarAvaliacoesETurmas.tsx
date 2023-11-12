@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 
 import { api } from "../../../api";
 import dateUTCFormat from "../../../helpers/dateUTCFormat";
@@ -15,6 +16,8 @@ import stylesDados from "../styles/Dados.module.css";
 type AvaliarCadernosProps = {
   idvol: number;
 };
+
+const LivrosOuCadernos = false;
 
 const GerenciarAvaliacoesETurmas = ({ idvol }: AvaliarCadernosProps) => {
   const { data: notebooks } = useGetNotebooks(idvol);
